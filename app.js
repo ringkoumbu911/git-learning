@@ -3,7 +3,7 @@ var temp;
 
 for (i = 0; i < arr.length; i++) {
     for (j = 0; j < arr.length; j++) {
-        if (arr[i] < arr[j]) {
+        if (arr[i] > arr[j]) {
             temp = arr[j];
             arr[j] = arr[i];
             arr[i] = temp;
